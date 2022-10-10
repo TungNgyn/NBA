@@ -1,0 +1,32 @@
+.banner-text {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F9FAF8;
+    text-align: center;
+    flex: 1;
+}
+
+.nba-logo img {
+    width: 100%;
+    height: 70px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner1 {
+    background: #1f2937;
+    height: 200px;
+}
+
+.banner2 {
+    background-color: black;
+    height: 800px;
+}
+
+.banner3 {
+    background-color: green;
+}
