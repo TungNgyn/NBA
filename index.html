@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NBA</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,195 +15,370 @@
     <div class="flex-container">
         <div class="banner1">
             <div class ="nba-logo">
-                <img src="teams/NBA.svg" alt="NBA-Logo" >
+                <img src="teams/NBA.svg" alt="NBA-Logo" onclick="location.href='Hegner.jpeg'">
             </div>
-            <p class="banner-text">This website is awesome</p>
+            <button class="steinButton" onclick="location.href='Stein.html'" type="button">Klick</button>
         </div>
         <div class="banner2">
-            <p class="table-caption">Eastern Conference</p>
-            <table id="eastern-conference-table" class="eastern-conference-table"> 
+            <table id="eastern-conference-table" class="eastern-conference-table" style="float: left"> 
                 <tr>
                     <th class="table-header">Eastern Conference</th>
                     <th class="table-header">W</th>
                     <th class="table-header">L</th>
                     <th class="table-header">W/L%</th>
                     <th class="table-header">GB</th>
-                    <th class="table-header">PS/G</th>
-                    <th class="table-header">PA/G</th>
-                    <th class="table-header">SRS</th>
                 </tr>
                 <tbody>
                     <tr class="full_table" data-row="0">
-                        <th>
-                            <a href="teams/Heat.svg">Miami Heat</a></th>
-                        <td data="win">1</td>
-                        <td data="loss">3</td>
+                        <td>
+                            <a href="teams/Heat.svg" style="text-decoration: none; position:relative; top: 4px; ">
+                                <img src="teams/Heat.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Heat.svg" style="text-decoration: none">Miami Heat</a>
+                        </td>
+                        <td data="win">82</td>
+                        <td data="loss">0</td>
                         <td>0</td>
                         <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
                     </tr>
                     <tr class="full_table" data-row="1">
-                        <th>
-                            <a href="teams/Wizards.svg">Washington Wizards</a></th>
-                        <td data="win">1</td>
-                        <td data="loss">1</td>
+                        <td>
+                            <a href="teams/Wizards.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Wizards.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Wizards.svg" style="text-decoration: none">Washington Wizards</a></td>
+                        <td data="win">41</td>
+                        <td data="loss">41</td>
                         <td>0</td>
                         <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
                     </tr>
                     <tr class="full_table" data-row="2">
-                        <th>
-                            <a href="teams/Raptors.svg">Toronto Raptors</a></th>
-                        <td data="win">1</td>
-                        <td data="loss">4</td>
-                        <td>0</td>
-                        <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
-                    </tr>
-                    <tr class="full_table" data-row="3">
-                        <th>
-                            <a href="teams/76ers.svg">Philadelphia 76ers</a></th>
-                        <td data="win">1</td>
+                        <td>
+                            <a href="teams/Raptors.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Raptors.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Raptors.svg" style="text-decoration: none">Toronto Raptors</a></td>
+                        <td data="win">81</td>
                         <td data="loss">1</td>
                         <td>0</td>
                         <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
+                    </tr>
+                    <tr class="full_table" data-row="3">
+                        <td>
+                            <a href="teams/76ers.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/76ers.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/76ers.svg" style="text-decoration: none">Philadelphia 76ers</a></td>
+                        <td data="win">44</td>
+                        <td data="loss">38</td>
+                        <td>0</td>
+                        <td>—</td>
                     </tr>
                     <tr class="full_table" data-row="4">
-                        <th>
-                            <a href="teams/Magic.svg">Orlando Magic</a></th>
-                        <td data="win">1</td>
-                        <td data="loss">6</td>
+                        <td>
+                            <a href="teams/Magic.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Magic.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Magic.svg" style="text-decoration: none">Orlando Magic</a></td>
+                        <td data="win">38</td>
+                        <td data="loss">44</td>
                         <td>0</td>
                         <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
                     </tr>
                     <tr class="full_table" data-row="5">
-                        <th>
-                            <a href="teams/Knicks.svg">New York Knicks</a></th>
-                        <td data="win">1</td>
-                        <td data="loss">7</td>
-                        <td>0</td>
-                        <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
-                    </tr>
-                    <tr class="full_table" data-row="6">
-                        <th>
-                            <a href="teams/Bucks.svg">Milwaukee Bucks</a></th>
-                        <td data="win">8</td>
-                        <td data="loss">5</td>
-                        <td>0</td>
-                        <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
-                    </tr>
-                    <tr class="full_table" data-row="7">
-                        <th>
-                            <a href="teams/Hawks.svg">Atlanta Hawks</a></th>
-                        <td data="win">9</td>
-                        <td data="loss">4</td>
-                        <td>0</td>
-                        <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
-                    </tr>
-                    <tr class="full_table" data-row="8">
-                        <th>
-                            <a href="teams/Pacers.svg">Indiana Pacers</a></th>
-                        <td data="win">1</td>
-                        <td data="loss">3</td>
-                        <td>0</td>
-                        <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
-                    </tr>
-                    <tr class="full_table" data-row="9">
-                        <th>
-                            <a href="teams/Cavaliers.svg">Cleveland Cavaliers</a></th>
-                        <td data="win">1</td>
+                        <td>
+                            <a href="teams/Knicks.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Knicks.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Knicks.svg" style="text-decoration: none">New York Knicks</a></td>
+                        <td data="win">80</td>
                         <td data="loss">2</td>
                         <td>0</td>
                         <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
+                    </tr>
+                    <tr class="full_table" data-row="6">
+                        <td>
+                            <a href="teams/Bucks.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Bucks.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Bucks.svg" style="text-decoration: none">Milwaukee Bucks</a></td>
+                        <td data="win">3</td>
+                        <td data="loss">79</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="7">
+                        <td>
+                            <a href="teams/Hawks.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Hawks.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Hawks.svg" style="text-decoration: none">Atlanta Hawks</a></td>
+                        <td data="win">14</td>
+                        <td data="loss">68</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="8">
+                        <td>
+                            <a href="teams/Pacers.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Pacers.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Pacers.svg" style="text-decoration: none">Indiana Pacers</a></td>
+                        <td data="win">68</td>
+                        <td data="loss">14</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="9">
+                        <td>
+                            <a href="teams/Cavaliers.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Cavaliers.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Cavaliers.svg" style="text-decoration: none">Cleveland Cavaliers</a></td>
+                        <td data="win">11</td>
+                        <td data="loss">71</td>
+                        <td>0</td>
+                        <td>—</td>
                     </tr>
                     <tr class="full_table" data-row="10">
-                        <th>
-                            <a href="teams/Celtics.svg">Boston Celtics</a></th>
-                        <td data="win">1</td>
-                        <td data="loss">4</td>
+                        <td>
+                            <a href="teams/Celtics.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Celtics.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Celtics.svg" style="text-decoration: none">Boston Celtics</a></td>
+                        <td data="win">71</td>
+                        <td data="loss">11</td>
                         <td>0</td>
                         <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
                     </tr>
                     <tr class="full_table" data-row="11">
-                        <th>
-                            <a href="teams/Nets.svg">Brooklyn Nets</a></th>
-                        <td data="win">1</td>
-                        <td data="loss">6</td>
+                        <td>
+                            <a href="teams/Nets.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Nets.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Nets.svg" style="text-decoration: none">Brooklyn Nets</a></td>
+                        <td data="win">21</td>
+                        <td data="loss">61</td>
                         <td>0</td>
                         <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
                     </tr>
                     <tr class="full_table" data-row="12">
-                        <th>
-                            <a href="teams/Bulls.svg">Chicago Bulls</a></th>
-                        <td data="win">1</td>
-                        <td data="loss">7</td>
+                        <td>
+                            <a href="teams/Bulls.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Bulls.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Bulls.svg" style="text-decoration: none">Chicago Bulls</a></td>
+                        <td data="win">40</td>
+                        <td data="loss">42</td>
                         <td>0</td>
                         <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
                     </tr>
                     <tr class="full_table" data-row="13">
-                        <th>
-                            <a href="teams/Hornets.svg">Charlotte Hornets</a></th>
-                        <td data="win">91</td>
-                        <td data="loss">5</td>
+                        <td>
+                            <a href="teams/Hornets.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Hornets.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Hornets.svg" style="text-decoration: none">Charlotte Hornets</a></td>
+                        <td data="win">81</td>
+                        <td data="loss">1</td>
                         <td>0</td>
                         <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
                     </tr>
                     <tr class="full_table" data-row="14">
-                        <th>
-                            <a href="teams/Pistons.svg">Detroit Pistons</a></th>
-                        <td data="win">1</td>
-                        <td data="loss">4</td>
+                        <td>
+                            <a href="teams/Pistons.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Pistons.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Pistons.svg" style="text-decoration: none">Detroit Pistons</a></td>
+                        <td data="win">0</td>
+                        <td data="loss">82</td>
                         <td>0</td>
                         <td>—</td>
-                        <td>b</td>
-                        <td>c</td>
-                        <td>d</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="western-conference-table" class="western-conference-table"> 
+                <tr>
+                    <th class="table-header">Western Conference</th>
+                    <th class="table-header">W</th>
+                    <th class="table-header">L</th>
+                    <th class="table-header">W/L%</th>
+                    <th class="table-header">GB</th>
+                </tr>
+                <tbody>
+                    <tr class="full_table" data-row="0">
+                        <td>
+                            <a href="teams/Grizzlies.svg" style="text-decoration: none; position:relative; top: 5px;" >
+                                <img src="teams/Grizzlies.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Grizzlies.svg" style="text-decoration: none">Memphis Grizzlies</a></td>
+                        <td data="win">82</td>
+                        <td data="loss">0</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="1">
+                        <td>
+                            <a href="teams/Nuggets.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Nuggets.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Nuggets.svg" style="text-decoration: none">Denver Nuggets</a></td>
+                        <td data="win">80</td>
+                        <td data="loss">2</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="2">
+                        <td>
+                            <a href="teams/Mavericks.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Mavericks.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Mavericks.svg" style="text-decoration: none">Dallas Mavericks</a></td>
+                        <td data="win">40</td>
+                        <td data="loss">42</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="3">
+                        <td>
+                            <a href="teams/Timberwolves.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Timberwolves.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Timberwolves.svg" style="text-decoration: none">Minnesota Timberwolves	</a></td>
+                        <td data="win">41</td>
+                        <td data="loss">41</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="4">
+                        <td>
+                            <a href="teams/Pelicans.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Pelicans.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Pelicans.svg" style="text-decoration: none">New Orleans Pelicans</a></td>
+                        <td data="win">42</td>
+                        <td data="loss">40</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="5">
+                        <td>
+                            <a href="teams/Warriors.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Warriors.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Warriors.svg" style="text-decoration: none">Golden State Warriors</a></td>
+                        <td data="win">22</td>
+                        <td data="loss">60</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="6">
+                        <td>
+                            <a href="teams/Thunder.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Thunder.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Thunder.svg" style="text-decoration: none">Oklahoma City Thunder</a></td>
+                        <td data="win">60</td>
+                        <td data="loss">22</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="7">
+                        <td>
+                            <a href="teams/Lakers.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Lakers.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Lakers.svg" style="text-decoration: none">Los Angeles Lakers</a></td>
+                        <td data="win">70</td>
+                        <td data="loss">12</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="8">
+                        <td>
+                            <a href="teams/Clippers.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Clippers.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Clippers.svg" style="text-decoration: none">Los Angeles Clippers</a></td>
+                        <td data="win">12</td>
+                        <td data="loss">70</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="9">
+                        <td>
+                            <a href="teams/Suns.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Suns.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Suns.svg" style="text-decoration: none">Phoenix Suns</a></td>
+                        <td data="win">73</td>
+                        <td data="loss">9</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="10">
+                        <td>
+                            <a href="teams/Blazers.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Blazers.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Blazers.svg" style="text-decoration: none">Portland Trail Blazers</a></td>
+                        <td data="win">9</td>
+                        <td data="loss">73</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="11">
+                        <td>
+                            <a href="teams/Kings.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Kings.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Kings.svg" style="text-decoration: none">Sacramento Kings</a></td>
+                        <td data="win">2</td>
+                        <td data="loss">80</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="12">
+                        <td>
+                            <a href="teams/Spurs.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Spurs.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Spurs.svg" style="text-decoration: none">San Antonio Spurs</a></td>
+                        <td data="win">64</td>
+                        <td data="loss">18</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="13">
+                        <td>
+                            <a href="teams/Jazz.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Jazz.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Jazz.svg" style="text-decoration: none">Utah Jazz</a></td>
+                        <td data="win">18</td>
+                        <td data="loss">64</td>
+                        <td>0</td>
+                        <td>—</td>
+                    </tr>
+                    <tr class="full_table" data-row="14">
+                        <td>
+                            <a href="teams/Rockets.svg" style="text-decoration: none; position:relative; top: 5px; ">
+                                <img src="teams/Rockets.svg" height="20" width="20">
+                            </a>
+                            <a href="teams/Rockets.svg" style="text-decoration: none">Houston Rockets</a></td>
+                        <td data="win">50</td>
+                        <td data="loss">32</td>
+                        <td>0</td>
+                        <td>—</td>
                     </tr>
                 </tbody>
             </table>
         </div>
+        <div class="banner3">
+
+        </div>
     </div>
 
-    <button onclick="location.href='Stein.html'" type="button">Klick</button>
 
     
     <script src="javascript.js"></script>
